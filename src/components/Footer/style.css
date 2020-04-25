@@ -1,0 +1,27 @@
+.footer{
+    height: 50px;
+    width: 100%;
+    background: #fcfcfc;
+    border-top: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer li{
+    flex:1;
+}
+.footer li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer li a{
+    color: #666;
+}
+.footer li .active{
+    color: red;
+}

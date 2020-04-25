@@ -1,0 +1,41 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+}
+
+.ant-carousel .slick-slide {
+    height: 120px;
+    width: 100%;
+}
+
+.ant-carousel img {
+    height: 120px;
+    width: 100%;
+}
+
+.home .tab {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+}
+
+.home .tab li {
+    width: 20%;
+}
+
+.home .tab li img {
+    height: 80px;
+}
+
+.home .miaosha {
+    height: 40px;
+    width: 100%;
+}
+
+.home .miaosha img {
+    height: 40px;
+}
