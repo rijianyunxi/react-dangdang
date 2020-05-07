@@ -6,6 +6,7 @@ import Me from '../pages/Me/'
 import FenLei from '../pages/Fenlei/'
 import Buy from '../pages/Buy/'
 import ShopCar from '../pages/ShopCar/'
+import Search from '../pages/Search/'
 import NotFound from '../pages/404/'
 
 export default class Routers extends React.Component{
@@ -18,6 +19,7 @@ export default class Routers extends React.Component{
                     <Route path="/buy" component={ Buy }></Route>
                     <Route path="/shopcar" component={ ShopCar }></Route>
                     <Route path="/me" component={ Me }></Route>
+                    <Route path="/search" component={ Search }></Route>
                     <Route path="*" component={ NotFound }></Route>
                 </Switch>
             </Router>
