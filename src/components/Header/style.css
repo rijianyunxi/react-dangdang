@@ -43,3 +43,16 @@
 .logo {
     color: red;
 }
+
+.search-input {
+    flex: 1;
+    padding: 0 15px;
+    color: #333;
+    height: 35px;
+}
+
+.search-input input {
+    width: 100%;
+    outline: none;
+    height: 35px;
+}
