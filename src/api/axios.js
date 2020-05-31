@@ -21,6 +21,7 @@ instance.interceptors.request.use(config => {
 //axios响应拦截
 
 instance.interceptors.response.use(response => {
+    console.log(response.status);
     return response
 }, error => {
     return Promise.reject(error)
